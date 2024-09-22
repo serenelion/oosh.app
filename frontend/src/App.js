@@ -1,25 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import OoshStreamPage from './pages/OoshStreamPage'; // Adjust the import path as necessary
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <div className="stack-content">
-          <h1>Hello World</h1>
-          <p>This is a simple stack layout.</p>
-        </div>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path="/" element={<OoshStreamPage />} />
+        {/* Add other routes here as needed */}
+      </Routes>
     </div>
   );
 }

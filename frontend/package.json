@@ -3,13 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "@testing-library/jest-dom": "^6.5.0",
+    "@testing-library/react": "^16.0.1",
+    "@testing-library/user-event": "^14.5.2",
+    "getstream": "^8.4.1",
+    "react": "^17.0.2",
+    "react-activity-feed": "^1.4.0",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.26.2",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "stream": "^0.0.3",
+    "stream-chat": "^8.40.9",
+    "stream-chat-react": "^12.0.0",
+    "web-vitals": "^4.2.3"
   },
   "scripts": {
     "start": "react-scripts start",
